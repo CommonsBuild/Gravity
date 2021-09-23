@@ -1,0 +1,56 @@
+name: Gravity Ticker
+description: A template for new Gravity Tickets
+body:
+- type: input
+  id: org
+  attributes:
+    label: Organization
+    description: Which organization does this issue concern?
+  validations:
+    required: true
+
+- type: input
+  id: date
+  attributes:
+    label: Date
+    description: Date of ticket submission?
+  validations:
+    required: true
+
+- type: input
+  id: start-date
+  attributes:
+    label: Start Date
+    description: Date on which Gravity mediation started?
+
+- type: dropdown
+  id: point
+  attributes:
+    label: Point of access
+    multiple: true
+    options:
+      - Discord
+      - Telegram
+      - Typeform
+      - Twitter
+
+- type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: Describe the conflict.
+  validations:
+    required: true
+
+- type: input
+  id: in-chage
+  attributes:
+    label: Graviton In-charge
+
+- type: textarea
+  id: actions
+  attributes:
+    label: Restorative Actions
+    description: What restorative actions should be taken into consideration?
+  validations:
+    required: false
