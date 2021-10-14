@@ -1,7 +1,7 @@
 ---
 name: Gravity ticket
 about: Submitting tickets to the Gravity registry
-title: Creating tickets for conflict management
+title: Gravity ticket
 labels: ''
 assignees: JuankBell
 
