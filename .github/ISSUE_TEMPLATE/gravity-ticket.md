@@ -11,6 +11,8 @@ assignees: JuankBell
 
 **Start Date. (D/M/Y)**
 
+**Input mechanism**
+
 **Graviton in charge**
 
 **Transformational action considered**
