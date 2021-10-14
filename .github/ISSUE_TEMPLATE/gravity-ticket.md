@@ -24,5 +24,3 @@ assignees: JuankBell
 **Additional actions**
 
 **Evidence**
-
-**Closing date**
