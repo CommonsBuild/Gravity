@@ -1,4 +1,4 @@
-name: Gravity Ticker
+name: Gravity Ticket
 description: A template for new Gravity Tickets
 body:
 - type: input
